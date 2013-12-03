@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFBF2B72184D8B2E00945D23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBF2B71184D8B2E00945D23 /* Foundation.framework */; };
+		CFBF2B74184D8B2E00945D23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBF2B73184D8B2E00945D23 /* CoreGraphics.framework */; };
+		CFBF2B76184D8B2E00945D23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBF2B75184D8B2E00945D23 /* UIKit.framework */; };
+		CFBF2B78184D8B2E00945D23 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBF2B77184D8B2E00945D23 /* CoreData.framework */; };
+		CFBF2B7E184D8B2E00945D23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFBF2B7C184D8B2E00945D23 /* InfoPlist.strings */; };
+		CFBF2B80184D8B2E00945D23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBF2B7F184D8B2E00945D23 /* main.m */; };
+		CFBF2B84184D8B2E00945D23 /* CSGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBF2B83184D8B2E00945D23 /* CSGAppDelegate.m */; };
+		CFBF2B87184D8B2E00945D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBF2B85184D8B2E00945D23 /* Main.storyboard */; };
+		CFBF2B8A184D8B2E00945D23 /* heliosapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFBF2B88184D8B2E00945D23 /* heliosapp.xcdatamodeld */; };
+		CFBF2B8D184D8B2E00945D23 /* CSGMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBF2B8C184D8B2E00945D23 /* CSGMasterViewController.m */; };
+		CFBF2B90184D8B2E00945D23 /* CSGDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBF2B8F184D8B2E00945D23 /* CSGDetailViewController.m */; };
+		CFBF2B92184D8B2E00945D23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBF2B91184D8B2E00945D23 /* Images.xcassets */; };
+		CFBF2B99184D8B2E00945D23 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBF2B98184D8B2E00945D23 /* XCTest.framework */; };
+		CFBF2B9A184D8B2E00945D23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBF2B71184D8B2E00945D23 /* Foundation.framework */; };
+		CFBF2B9B184D8B2E00945D23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBF2B75184D8B2E00945D23 /* UIKit.framework */; };
+		CFBF2B9C184D8B2E00945D23 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBF2B77184D8B2E00945D23 /* CoreData.framework */; };
+		CFBF2BA4184D8B2E00945D23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFBF2BA2184D8B2E00945D23 /* InfoPlist.strings */; };
+		CFBF2BA6184D8B2E00945D23 /* heliosappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBF2BA5184D8B2E00945D23 /* heliosappTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFBF2B9D184D8B2E00945D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBF2B66184D8B2E00945D23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBF2B6D184D8B2E00945D23;
+			remoteInfo = heliosapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFBF2B6E184D8B2E00945D23 /* heliosapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heliosapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBF2B71184D8B2E00945D23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFBF2B73184D8B2E00945D23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CFBF2B75184D8B2E00945D23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CFBF2B77184D8B2E00945D23 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CFBF2B7B184D8B2E00945D23 /* heliosapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "heliosapp-Info.plist"; sourceTree = "<group>"; };
+		CFBF2B7D184D8B2E00945D23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFBF2B7F184D8B2E00945D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFBF2B81184D8B2E00945D23 /* heliosapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "heliosapp-Prefix.pch"; sourceTree = "<group>"; };
+		CFBF2B82184D8B2E00945D23 /* CSGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGAppDelegate.h; sourceTree = "<group>"; };
+		CFBF2B83184D8B2E00945D23 /* CSGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGAppDelegate.m; sourceTree = "<group>"; };
+		CFBF2B86184D8B2E00945D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFBF2B89184D8B2E00945D23 /* heliosapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = heliosapp.xcdatamodel; sourceTree = "<group>"; };
+		CFBF2B8B184D8B2E00945D23 /* CSGMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGMasterViewController.h; sourceTree = "<group>"; };
+		CFBF2B8C184D8B2E00945D23 /* CSGMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGMasterViewController.m; sourceTree = "<group>"; };
+		CFBF2B8E184D8B2E00945D23 /* CSGDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGDetailViewController.h; sourceTree = "<group>"; };
+		CFBF2B8F184D8B2E00945D23 /* CSGDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGDetailViewController.m; sourceTree = "<group>"; };
+		CFBF2B91184D8B2E00945D23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFBF2B97184D8B2E00945D23 /* heliosappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heliosappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBF2B98184D8B2E00945D23 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CFBF2BA1184D8B2E00945D23 /* heliosappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "heliosappTests-Info.plist"; sourceTree = "<group>"; };
+		CFBF2BA3184D8B2E00945D23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFBF2BA5184D8B2E00945D23 /* heliosappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = heliosappTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFBF2B6B184D8B2E00945D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF2B74184D8B2E00945D23 /* CoreGraphics.framework in Frameworks */,
+				CFBF2B78184D8B2E00945D23 /* CoreData.framework in Frameworks */,
+				CFBF2B76184D8B2E00945D23 /* UIKit.framework in Frameworks */,
+				CFBF2B72184D8B2E00945D23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBF2B94184D8B2E00945D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF2B99184D8B2E00945D23 /* XCTest.framework in Frameworks */,
+				CFBF2B9C184D8B2E00945D23 /* CoreData.framework in Frameworks */,
+				CFBF2B9B184D8B2E00945D23 /* UIKit.framework in Frameworks */,
+				CFBF2B9A184D8B2E00945D23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFBF2B65184D8B2E00945D23 = {
+			isa = PBXGroup;
+			children = (
+				CFBF2B79184D8B2E00945D23 /* heliosapp */,
+				CFBF2B9F184D8B2E00945D23 /* heliosappTests */,
+				CFBF2B70184D8B2E00945D23 /* Frameworks */,
+				CFBF2B6F184D8B2E00945D23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBF2B6F184D8B2E00945D23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF2B6E184D8B2E00945D23 /* heliosapp.app */,
+				CFBF2B97184D8B2E00945D23 /* heliosappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFBF2B70184D8B2E00945D23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF2B71184D8B2E00945D23 /* Foundation.framework */,
+				CFBF2B73184D8B2E00945D23 /* CoreGraphics.framework */,
+				CFBF2B75184D8B2E00945D23 /* UIKit.framework */,
+				CFBF2B77184D8B2E00945D23 /* CoreData.framework */,
+				CFBF2B98184D8B2E00945D23 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFBF2B79184D8B2E00945D23 /* heliosapp */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF2B82184D8B2E00945D23 /* CSGAppDelegate.h */,
+				CFBF2B83184D8B2E00945D23 /* CSGAppDelegate.m */,
+				CFBF2B85184D8B2E00945D23 /* Main.storyboard */,
+				CFBF2B8B184D8B2E00945D23 /* CSGMasterViewController.h */,
+				CFBF2B8C184D8B2E00945D23 /* CSGMasterViewController.m */,
+				CFBF2B8E184D8B2E00945D23 /* CSGDetailViewController.h */,
+				CFBF2B8F184D8B2E00945D23 /* CSGDetailViewController.m */,
+				CFBF2B91184D8B2E00945D23 /* Images.xcassets */,
+				CFBF2B88184D8B2E00945D23 /* heliosapp.xcdatamodeld */,
+				CFBF2B7A184D8B2E00945D23 /* Supporting Files */,
+			);
+			path = heliosapp;
+			sourceTree = "<group>";
+		};
+		CFBF2B7A184D8B2E00945D23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF2B7B184D8B2E00945D23 /* heliosapp-Info.plist */,
+				CFBF2B7C184D8B2E00945D23 /* InfoPlist.strings */,
+				CFBF2B7F184D8B2E00945D23 /* main.m */,
+				CFBF2B81184D8B2E00945D23 /* heliosapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFBF2B9F184D8B2E00945D23 /* heliosappTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF2BA5184D8B2E00945D23 /* heliosappTests.m */,
+				CFBF2BA0184D8B2E00945D23 /* Supporting Files */,
+			);
+			path = heliosappTests;
+			sourceTree = "<group>";
+		};
+		CFBF2BA0184D8B2E00945D23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF2BA1184D8B2E00945D23 /* heliosappTests-Info.plist */,
+				CFBF2BA2184D8B2E00945D23 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFBF2B6D184D8B2E00945D23 /* heliosapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBF2BA9184D8B2E00945D23 /* Build configuration list for PBXNativeTarget "heliosapp" */;
+			buildPhases = (
+				CFBF2B6A184D8B2E00945D23 /* Sources */,
+				CFBF2B6B184D8B2E00945D23 /* Frameworks */,
+				CFBF2B6C184D8B2E00945D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = heliosapp;
+			productName = heliosapp;
+			productReference = CFBF2B6E184D8B2E00945D23 /* heliosapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFBF2B96184D8B2E00945D23 /* heliosappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBF2BAC184D8B2E00945D23 /* Build configuration list for PBXNativeTarget "heliosappTests" */;
+			buildPhases = (
+				CFBF2B93184D8B2E00945D23 /* Sources */,
+				CFBF2B94184D8B2E00945D23 /* Frameworks */,
+				CFBF2B95184D8B2E00945D23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFBF2B9E184D8B2E00945D23 /* PBXTargetDependency */,
+			);
+			name = heliosappTests;
+			productName = heliosappTests;
+			productReference = CFBF2B97184D8B2E00945D23 /* heliosappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFBF2B66184D8B2E00945D23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CSG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Greenster;
+				TargetAttributes = {
+					CFBF2B96184D8B2E00945D23 = {
+						TestTargetID = CFBF2B6D184D8B2E00945D23;
+					};
+				};
+			};
+			buildConfigurationList = CFBF2B69184D8B2E00945D23 /* Build configuration list for PBXProject "heliosapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFBF2B65184D8B2E00945D23;
+			productRefGroup = CFBF2B6F184D8B2E00945D23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFBF2B6D184D8B2E00945D23 /* heliosapp */,
+				CFBF2B96184D8B2E00945D23 /* heliosappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFBF2B6C184D8B2E00945D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF2B92184D8B2E00945D23 /* Images.xcassets in Resources */,
+				CFBF2B7E184D8B2E00945D23 /* InfoPlist.strings in Resources */,
+				CFBF2B87184D8B2E00945D23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBF2B95184D8B2E00945D23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF2BA4184D8B2E00945D23 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFBF2B6A184D8B2E00945D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF2B8D184D8B2E00945D23 /* CSGMasterViewController.m in Sources */,
+				CFBF2B84184D8B2E00945D23 /* CSGAppDelegate.m in Sources */,
+				CFBF2B8A184D8B2E00945D23 /* heliosapp.xcdatamodeld in Sources */,
+				CFBF2B90184D8B2E00945D23 /* CSGDetailViewController.m in Sources */,
+				CFBF2B80184D8B2E00945D23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBF2B93184D8B2E00945D23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF2BA6184D8B2E00945D23 /* heliosappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFBF2B9E184D8B2E00945D23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFBF2B6D184D8B2E00945D23 /* heliosapp */;
+			targetProxy = CFBF2B9D184D8B2E00945D23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFBF2B7C184D8B2E00945D23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBF2B7D184D8B2E00945D23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFBF2B85184D8B2E00945D23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBF2B86184D8B2E00945D23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFBF2BA2184D8B2E00945D23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFBF2BA3184D8B2E00945D23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFBF2BA7184D8B2E00945D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFBF2BA8184D8B2E00945D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFBF2BAA184D8B2E00945D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "heliosapp/heliosapp-Prefix.pch";
+				INFOPLIST_FILE = "heliosapp/heliosapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFBF2BAB184D8B2E00945D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "heliosapp/heliosapp-Prefix.pch";
+				INFOPLIST_FILE = "heliosapp/heliosapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CFBF2BAD184D8B2E00945D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/heliosapp.app/heliosapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "heliosapp/heliosapp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "heliosappTests/heliosappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CFBF2BAE184D8B2E00945D23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/heliosapp.app/heliosapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "heliosapp/heliosapp-Prefix.pch";
+				INFOPLIST_FILE = "heliosappTests/heliosappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFBF2B69184D8B2E00945D23 /* Build configuration list for PBXProject "heliosapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBF2BA7184D8B2E00945D23 /* Debug */,
+				CFBF2BA8184D8B2E00945D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBF2BA9184D8B2E00945D23 /* Build configuration list for PBXNativeTarget "heliosapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBF2BAA184D8B2E00945D23 /* Debug */,
+				CFBF2BAB184D8B2E00945D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFBF2BAC184D8B2E00945D23 /* Build configuration list for PBXNativeTarget "heliosappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBF2BAD184D8B2E00945D23 /* Debug */,
+				CFBF2BAE184D8B2E00945D23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFBF2B88184D8B2E00945D23 /* heliosapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFBF2B89184D8B2E00945D23 /* heliosapp.xcdatamodel */,
+			);
+			currentVersion = CFBF2B89184D8B2E00945D23 /* heliosapp.xcdatamodel */;
+			path = heliosapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFBF2B66184D8B2E00945D23 /* Project object */;
+}
