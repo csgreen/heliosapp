@@ -214,6 +214,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Greenster;
 				TargetAttributes = {
+					CFBF2B6D184D8B2E00945D23 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					CFBF2B96184D8B2E00945D23 = {
 						TestTargetID = CFBF2B6D184D8B2E00945D23;
 					};

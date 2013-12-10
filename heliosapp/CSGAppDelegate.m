@@ -22,6 +22,8 @@
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     CSGMasterViewController *controller = (CSGMasterViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert];
+    
     return YES;
 }
 							
